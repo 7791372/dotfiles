@@ -1,0 +1,39 @@
+[global]
+monitor = 2
+width = 384
+notification_limit = 2
+indicate_hidden = true
+origin = top-right
+icon_corner_radius = 13
+gap_size = 7
+padding = 20
+frame_width = 2
+sort = true
+idle_threshold = 30
+show_age_threshold = 0
+font = Less Perfect DOS VGA 13
+stack_duplicates = true
+history_length = 100
+corner_radius = 13
+alignment = left
+min_icon_size = 128
+max_icon_size = 128
+offset = 69x69
+
+[urgency_low]
+timeout = 4
+background = "#614f6e"
+foreground = "#c6bece"
+frame_color = "#614f6e"
+
+[urgency_normal]
+timeout = 8
+background = "#614f6e"
+foreground = "#c6bece"
+frame_color = "#614f6e"
+
+[urgency_critical]
+timeout = 0
+background = "#110e1755"
+foreground = "#c6bece"
+frame_color = "#614f6e"
